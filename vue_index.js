@@ -1,11 +1,11 @@
 let app = new Vue({ 
     el: '#app',
     data: {
-        message: 'Кларн токсик?'
+        message: '?'
     },
     methods: {
         yes: function() {
-            this.message = "Кларн токсик"
+            this.message = "maybe"
         }
     }
 });
